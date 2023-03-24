@@ -1,0 +1,191 @@
+body {
+
+	background-color: #444444;
+	color: white;
+	font-family: "Arial";
+
+}
+
+
+input, select {
+
+	height: 40px;
+	width: 300px;
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: "Arial";
+	color: black;
+	background-color: white;
+	border: 2px solid #EEEEEE;
+
+}
+
+
+button {
+
+	height: 60px;
+	width: 300px;
+	text-align: center;
+	color: white;
+	background-color: #333333;
+	font-size: 38px;
+	border: 0px solid white;
+
+}
+
+
+.icon_button {
+
+	height: 60px;
+	width: 60px;
+	float: left;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	color: white;
+	background-color: #333333;
+	opacity: 95%;
+	font-size: 38px;
+	border: 0px solid white;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+
+
+.head_bar {
+
+	background-color: #333333;
+	color: white;
+	height: 30px;
+	font-size: 30px;
+	padding: 15px 0px 15px 1em;
+	border: 5px solid #333333;
+	font-weight: bold;
+
+}
+
+
+.foot_bar {
+
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 60px;
+	width: 100%;
+	color: white;
+	background-color: #333333;
+	opacity: 90%;
+
+}
+
+
+.sidebar_left {
+
+	text-align: center;
+	top: 0px;
+	position: fixed;
+	left: 0px;
+	width: 20%;
+	height: 100%;
+	background-color: #222222;
+
+}
+
+
+.sidebar_right {
+
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+	background-color: #222222;
+
+}
+
+
+.sidebar_index {
+
+	text-align: left;
+	height: 25px;
+	border: thin solid #CCCCCC;
+	padding: 20px 0px 20px 1em;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+
+.popup_window {
+
+	width: 80%;
+	height: 80%;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	padding: 2em 0px 2em 0px;
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	opacity: 80%;
+
+}
+
+
+.terminal {
+
+	width: 100%;
+	height: 100%;
+	background-color: #222222;
+	opacity: 90%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+}
+
+
+.terminal_commandLine {
+
+	background-color: white;
+	color: black;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	padding-left: 1em;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+
+}
+
+
+.terminal_logLine {
+
+	color: white;
+	width: 100%;
+	height: 20px;
+	margin: 3% 0px 3% 0px;
+	font-size: 20px;
+	padding-left: 2em;
+	font-weight: bold;
+
+}
+
+
+.circle {
+
+	border-radius: 100%;
+
+}
+
+
+a {
+
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
